@@ -8,11 +8,11 @@ GIVEN I need to sample a potential employee's previous work
 <br/>
 WHEN I load their portfolio
 <br/>
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them XXX
 <br/>
 WHEN I click one of the links in the navigation
 <br/>
-THEN the UI scrolls to the corresponding section
+THEN the UI scrolls to the corresponding section XXX
 <br/>
 WHEN I click on the link to the section about their work
 <br/>

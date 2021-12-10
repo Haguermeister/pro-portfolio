@@ -1,23 +1,40 @@
 :root{
     --navy: #000048;
+    --navy2: #b9d4f4;
     --gold: #b4a87e;
     --textsize: 16px;
+    --logo-widthheight: 3rem;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+/* Set font size for rem refernce */
+html{
+    font-size: 75%;
+    color: var(--navy);
+}
+/* Header styling below */
+header{
     top: 0;
     background: var(--navy);
-    padding: 20px 15px;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 header h1{
-    font-size: 2.2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+header h1 a img{
+    height: 2rem;
+    width: auto;
+    padding-left: 5px;
 }
 header a{
     text-decoration: none;
@@ -29,31 +46,195 @@ header nav ul{
     justify-content: space-between;
     list-style: none;
     align-items: center;
+    justify-content: right;
 }
 header nav ul li a{
-    padding: 10px 15px;
-    margin: 10px;
-    font-size: 1.5vw;
-    border-bottom: 1px solid var(--gold);
+    padding: 1rem 1rem;
+    margin: .9rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem
 }
-.main-page{
+/* Color text on hover for nav */
+.textlight{
+    font-size: 4rem;
+}
+header nav ul li a:hover{
+    color: #ffff87;
+}
+header nav ul li a:hover .textlight{
+    color: red;
+}
+/* Profile / Bio styling */
+.container{
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 4rem auto;
+    max-width: 1200px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    marign-right: -1rem;
+}
+.col{
+    position: relative;
+    width: 100%;
+}
+.column1{
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.column2{
+    flex: 0 0 66.66666666%;
+    max-width: 66.66666666%;
+}
+.column3{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.column4{
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+.profile{
+    display:block;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile h3{
+    font-size: 1.5rem;
+    margin-bottom: .8rem;
+}
+.name{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.biography h2{
+    font-size: 3rem;
+    margin: 2rem 0;
+    font-weight: bolder;
+}
+.biography p{
+    font-size: 1.6rem;
+    letter-spacing: normal;
+    font-weight: lighter;
+}
+.logosection{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 1rem;
+    width: var(--logo-widthheight);
+    height: var(--logo-widthheight);
+}
+.github {
+    background: url("../images/logos/icons8-github-50.png") no-repeat ;
+    background-size: contain;
+}
+.github:hover {
+    background: url("../images/gif-logos/icons8-github.gif") no-repeat;
+    background-size: contain;
+}
+.linkedin{
+    background: url("../images/logos/icons8-linkedin-circled-50.png") no-repeat ;
+    background-size: contain;
+}
+.linkedin:hover {
+    background: url("../images/gif-logos/icons8-linkedin-circled.gif") no-repeat;
+    background-size: contain;
+}
+.mail{
+    background: url(../images/logos/icons8-gmail-logo-50.png);
+    background-size: contain;
+}
+.mail:hover{
+    background: url(../images/gif-logos/icons8-gmail-logo.gif);
+    background-size: contain;
+}
+.phone{
+    background: url(../images/logos/icons8-phone-ringing-50.png);
+    background-size: contain;
+}
+.phone:hover{
+    background: url(../images/gif-logos/icons8-phone-ringing.gif);
+    background-size: contain;
+}
+.skillb{
+    width: 100;
+    margin: 0;
+    padding: auto;
+    background: var(--navy2);
+}
+#skills{
+    padding: 1rem 1rem;
+    margin: 0 4rem;
+}
+.skillIcon{
+    display: flex;
+    width:100%;
+    text-align: center;
+}
+.skillIcon i , .skillIcon img{
+    font-size: 6rem;
+    color: #000;
+    height: 6rem;
+    width: auto;
+}
+.workImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1vw;
+}
+.workImages a img{
+    width: 20em;
+    height: auto;
+}
+#contact h2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 1.5rem;
+}
+.contact-form input, .contact-form textarea{
+    border: 1.5px solid var(--navy);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
     color: var(--navy);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(180, 168, 126, 0.7);
 }
-.main-page h2{
-    margin: 1vw 0.5vw;
+.contact-form input:focus, .contact-form textarea:focus{
+    background-color: rgba(180, 168, 126, 1);
+    outline: none;
 }
-.section-header{
-    border-bottom: 1px solid var(--navy);
-    font-size: 1.5vw;
+::placeholder{
+    color: var(--navy);
 }
 footer{
     display: flex;
     flex-wrap: wrap;
+    color: var(--gold);
+    align-items: center;
+    background: var(--navy);
+    justify-content: space-between;
 }
-footer{
-    color: var(--navy);
+footer h3{
+    margin: 1.5rem;
 }
 footer img{
-    width: 7.5%;
+    width: 2rem;
     height: auto;
+    margin: 1.5rem;
 }
