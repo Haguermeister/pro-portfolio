@@ -76,7 +76,7 @@ header nav ul li a:hover .textlight{
     display: flex;
     flex-wrap: wrap;
     margin-left: -1rem;
-    marign-right: -1rem;
+    margin-right: -1rem;
 }
 .col{
     position: relative;
@@ -99,11 +99,15 @@ header nav ul li a:hover .textlight{
     max-width: 80%;
 }
 .profile{
-    display:block;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    /*display:block;
     position: relative;
     text-align: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 .profile img{
     border-radius: 50%;
@@ -203,6 +207,10 @@ header nav ul li a:hover .textlight{
     text-orientation: upright;
     font-size: 1.5rem;
 }
+.contactb{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 .contact-form input, .contact-form textarea{
     border: 1.5px solid var(--navy);
     display: block;
@@ -229,6 +237,7 @@ footer{
     align-items: center;
     background: var(--navy);
     justify-content: space-between;
+    top: 0;
 }
 footer h3{
     margin: 1.5rem;
