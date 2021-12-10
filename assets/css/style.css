@@ -230,11 +230,11 @@ header nav ul li a:hover .textlight{
     padding-right: 1rem;
     padding-left: 1rem;
 }
-.contact-form input, .contact-form textarea{
+.contact-form input, .contact-form textarea, .contact-form button{
     border: 1.5px solid var(--navy);
     display: flex;
     flex-direction: column;
-    padding: 7px 15px;
+    padding: .6rem 1.1rem;
     font-size: 1.5rem;
     color: var(--navy);
     width: 90%;
@@ -243,8 +243,15 @@ header nav ul li a:hover .textlight{
     background-color: rgba(185, 212, 244, 0.2);
 }
 .contact-form input:focus, .contact-form textarea:focus{
-    background-color: rgba(185, 212, 244, 1);
+    background-color: #fff;
     outline: none;
+}
+.contact-form button{
+    width: 10%;
+    border: 3px solid ;
+}
+.contact-form button:hover{
+background-color: rgba(0, 0, 72, .3);
 }
 ::placeholder{
     color: var(--navy);
@@ -292,8 +299,7 @@ footer img{
         max-width: 100%;
     }
     .biography{
-        margin: 1rem;
-        padding: 0 2rem;
+        padding: 0 auto;
     }
 }
 @media screen and (max-width: 575px){
