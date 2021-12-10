@@ -285,6 +285,9 @@ footer img{
     .biography{
         padding: 0 2rem;
     }
+    .contact-form button{
+        width: 7rem;
+    }
 }
 @media screen and (max-width: 768px){
     header nav ul{
@@ -318,6 +321,7 @@ footer img{
     #contact h2{
         font-size: 1.5rem;
     }
+    
 
 }
 
