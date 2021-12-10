@@ -247,7 +247,7 @@ header nav ul li a:hover .textlight{
     outline: none;
 }
 .contact-form button{
-    width: 10%;
+    width: 7rem;
     border: 3px solid ;
 }
 .contact-form button:hover{
@@ -285,9 +285,6 @@ footer img{
     .biography{
         padding: 0 2rem;
     }
-    .contact-form button{
-        width: 7rem;
-    }
 }
 @media screen and (max-width: 768px){
     header nav ul{
@@ -318,10 +315,7 @@ footer img{
         font-size: 4rem;
         height: 4rem;
     }
-    #contact h2{
-        font-size: 1.5rem;
-    }
-    
+
 
 }
 
