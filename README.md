@@ -1,9 +1,13 @@
 # Professional Portfolio Project: Due 12 Dec 2021
-## User Story
+Project to create a professional portfolio to show off work and front-end skills.
+## Link to Project: https://haguermeister.github.io/pro-portfolio/
+## Screenshot of Project below:
+![alt text](./assets/images/Screenshot.png)
+### User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-## Acceptance Criteria
+### Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work
 <br/>
 WHEN I load their portfolio
@@ -16,15 +20,15 @@ THEN the UI scrolls to the corresponding section XXX
 <br/>
 WHEN I click on the link to the section about their work
 <br/>
-THEN the UI scrolls to a section with titled images of the developer's applications
+THEN the UI scrolls to a section with titled images of the developer's applications XXX
 <br/>
 WHEN I am presented with the developer's first application
 <br/>
-THEN that application's image should be larger in size than the others
+THEN that application's image should be larger in size than the others XXX
 <br/>
 WHEN I click on the images of the applications
 <br/>
-THEN I am taken to that deployed application
+THEN I am taken to that deployed application XXX
 <br/>
 WHEN I resize the page or view the site on various screens and devices
 <br/>
