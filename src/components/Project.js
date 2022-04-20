@@ -58,7 +58,7 @@ class Main extends React.Component {
             Stack Overeats
           </h3>
           <p>
-            Languages :<br />
+            Full-Stack : Handlebars CSS JavaScript Sequelize Bootstrap Express Node NPM Heroku<br />
             Deployed : <a href='https://stack-overeats.herokuapp.com/' style={{ borderBottom: 'none' }}>https://stack-overeats.herokuapp.com/</a><br />
             Github : <a href='https://github.com/Haguermeister/stack-overeats' style={{ borderBottom: 'none' }}>https://github.com/Haguermeister/stack-overeats</a>
           </p>
@@ -69,7 +69,7 @@ class Main extends React.Component {
             Cocky Cocktails
           </h3>
           <p>
-            Languages :<br />
+            Front-End : HTML CSS JavaScript Bulma Git Github<br />
             Deployed : <a href='https://whosshazo.github.io/cocktail-project/' style={{ borderBottom: 'none' }}>https://whosshazo.github.io/cocktail-project/</a><br />
             Github : <a href='https://github.com/whosshazo/cocktail-project' style={{ borderBottom: 'none' }}>https://github.com/whosshazo/cocktail-project</a>
           </p>
