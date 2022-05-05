@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import resume from '../../public/resume.pdf'
 
-const Header = props => (
+const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       <span className="icon fa-code"></span>
@@ -10,9 +10,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Austin Hague</h1>
-        <p>
-          WELCOME TO MY PORTFOLIO PAGE
-        </p>
+        <p>WELCOME TO MY PORTFOLIO PAGE</p>
       </div>
     </div>
     <nav>
@@ -37,7 +35,11 @@ const Header = props => (
         </li>
         <li>
           <button>
-            <a href={resume} download='AustinHagueResume' style={{ borderBottom: 'none' }}>
+            <a
+              href={resume}
+              download="AustinHagueResume"
+              style={{ borderBottom: 'none' }}
+            >
               RESUME.
             </a>
           </button>
@@ -53,7 +55,7 @@ const Header = props => (
         </li>
       </ul>
     </nav>
-  </header >
+  </header>
 )
 
 Header.propTypes = {
