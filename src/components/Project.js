@@ -3,7 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpeg'
 import stackOvereats from '../images/stack-overeats-screenshot.png'
 import cockyCocktails from '../images/cocky-cocktails-screenshot.png'
-import houseShow from '../images/HouseShow.png'
+import HouseShow from '../images/houseShow.png'
 
 import ContactForm from './contactForm'
 
@@ -69,7 +69,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={houseShow} alt="" />
+            <img src={HouseShow} alt="" />
           </span>
           <h3>HouseShow</h3>
           <p>
