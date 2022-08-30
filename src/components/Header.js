@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import resume from '../assets/AustinHague_Resume_V3.pdf'
+import resume from '../assets/Austin Hague _ Revision V5.pdf'
 const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
